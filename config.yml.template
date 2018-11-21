@@ -1,8 +1,15 @@
+system: 'Mariadb Multi Replication'
+
 mysql:
-    user: ''
-    password: ''
+    user: 'xxxxx'
+    password: 'xxxxx'
     host: 'localhost'
     raise_on_warnings: True
     port: 3306
+    replication_name: ['xxxxx', 'xxxxx']
 
 webhook_url: 'https://hooks.slack.com/services/XXXXX/XXXXX/XXXXX'
+
+telegram:
+    token: 'xxxxx'
+    chat_id: 1234567890
